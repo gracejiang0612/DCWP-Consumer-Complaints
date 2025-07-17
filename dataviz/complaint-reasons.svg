@@ -10,33 +10,73 @@
   <rect id="path6" x="916" y="685.15" width="36" height="37" fill="#fcf999"/>
   <line x1="151.28" y1="177.39" x2="152" y2="182.15" fill="none"/>
   <g>
-    <text transform="translate(23 165.24)" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="24" font-weight="700"><tspan x="0" y="0">Price Not Posted</tspan></text>
-    <text transform="translate(23 202.49)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="23"><tspan x="0" y="0">169</tspan></text>
+    <g isolation="isolate">
+      <text transform="translate(30.18 179.76)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="24" font-weight="700" isolation="isolate"><tspan x="0" y="0">Price Not Posted</tspan></text>
+    </g>
+    <g isolation="isolate">
+      <text transform="translate(30.18 217.01)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="23" isolation="isolate"><tspan x="0" y="0">169</tspan></text>
+    </g>
   </g>
   <g>
-    <text transform="translate(30.55 495.99)" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="24" font-weight="700"><tspan x="0" y="0">Cashless Business</tspan></text>
-    <text transform="translate(30.55 532.54)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="22"><tspan x="0" y="0">142</tspan></text>
+    <g isolation="isolate">
+      <text transform="translate(30.55 495.99)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="24" font-weight="700" isolation="isolate"><tspan x="0" y="0">Cashless Business</tspan></text>
+    </g>
+    <g isolation="isolate">
+      <text transform="translate(30.55 532.54)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="22" isolation="isolate"><tspan x="0" y="0">142</tspan></text>
+    </g>
   </g>
   <g>
-    <text transform="translate(832.25 617.59)" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="12" font-weight="700"><tspan x="0" y="0">Overcharge</tspan></text>
-    <text transform="translate(832.25 629.78)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="11"><tspan x="0" y="0">4</tspan></text>
+    <g isolation="isolate">
+      <text transform="translate(832.25 617.59)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="12" font-weight="700" isolation="isolate"><tspan x="0" y="0">Overcharge</tspan></text>
+    </g>
+    <g isolation="isolate">
+      <text transform="translate(832.25 629.78)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="11" isolation="isolate"><tspan x="0" y="0">4</tspan></text>
+    </g>
   </g>
   <g>
-    <text transform="translate(832.25 167.16)" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="14" font-weight="700"><tspan x="0" y="0">Price Not Posted; </tspan><tspan x="0" y="16.8">Cashless Business</tspan></text>
-    <text transform="translate(832.6 204.49)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="16"><tspan x="0" y="0">39</tspan></text>
+    <g isolation="isolate">
+      <text transform="translate(832.25 167.16)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="14" font-weight="700" isolation="isolate"><tspan x="0" y="0">Price Not Posted; </tspan></text>
+      <text transform="translate(832.25 183.96)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="14" font-weight="700" isolation="isolate"><tspan x="0" y="0">Cashless Business</tspan></text>
+    </g>
+    <g isolation="isolate">
+      <text transform="translate(832.6 204.49)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="16" isolation="isolate"><tspan x="0" y="0">39</tspan></text>
+    </g>
   </g>
   <g>
-    <text transform="translate(831.96 683.92)" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="10" font-weight="700"><tspan x="0" y="0">Overcharge; </tspan><tspan x="0" y="12">Cashless Business</tspan></text>
-    <text transform="translate(832.71 706.6)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="10"><tspan x="0" y="0">3</tspan></text>
+    <g isolation="isolate">
+      <text transform="translate(831.96 683.92)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="10" font-weight="700" isolation="isolate"><tspan x="0" y="0">Overcharge; </tspan></text>
+      <text transform="translate(831.96 695.92)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="10" font-weight="700" isolation="isolate"><tspan x="0" y="0">Cashless Business</tspan></text>
+    </g>
+    <g isolation="isolate">
+      <text transform="translate(832.71 706.6)" fill="#555" font-family="NYTCheltenham-ExtraLight, NYTCheltenham" font-size="10" font-weight="200" isolation="isolate"><tspan x="0" y="0">3</tspan></text>
+    </g>
   </g>
-  <text transform="translate(916 617.08)"><tspan font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="7.5" font-weight="700"><tspan x="0" y="0">Unlicensed</tspan></tspan><tspan fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="7"><tspan x="0" y="8.4">2</tspan></tspan></text>
+  <g isolation="isolate">
+    <text transform="translate(916 617.08)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="7.5" font-weight="700" isolation="isolate"><tspan x="0" y="0">Unlicensed</tspan></text>
+    <text transform="translate(916 625.48)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="7" isolation="isolate"><tspan x="0" y="0">2</tspan></text>
+  </g>
   <g>
-    <text transform="translate(916.15 692.72)" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="6" font-weight="700"><tspan x="0" y="0">Overcharge; </tspan><tspan x="0" y="7.2">Price Not </tspan><tspan x="0" y="14.4">Posted</tspan></text>
-    <text transform="translate(916.9 715.26)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="6"><tspan x="0" y="0">2</tspan></text>
+    <g isolation="isolate">
+      <text transform="translate(916.15 692.72)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="6" font-weight="700" isolation="isolate"><tspan x="0" y="0">Overcharge; </tspan></text>
+      <text transform="translate(916.15 699.92)" font-size="6" font-weight="700" isolation="isolate"><tspan x="0" y="0" font-family="NYTCheltenham-Bold, NYTCheltenham">Price Not</tspan><tspan x="22.6" y="0" font-family="Times-Bold, Times"> </tspan></text>
+      <text transform="translate(916.15 707.12)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="6" font-weight="700" isolation="isolate"><tspan x="0" y="0">Posted</tspan></text>
+    </g>
+    <g isolation="isolate">
+      <text transform="translate(916.9 715.26)" fill="#555" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="6" isolation="isolate"><tspan x="0" y="0">2</tspan></text>
+    </g>
   </g>
   <g>
-    <text transform="translate(16.55 39.83)" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="24" font-weight="700"><tspan x="0" y="0">Failure to post prices and cashless-only policy drive most complaints against Eddie </tspan><tspan x="0" y="28.8">Cumart’s ice cream truck</tspan></text>
-    <text transform="translate(16.55 100.27)" fill="#555" font-family="TimesNewRomanPS-BoldItalicMT, &apos;Times New Roman&apos;" font-size="21" font-style="italic" font-weight="700"><tspan x="0" y="0">Breakdown of 361 complaints against Eddie Cumart’s NYC ice cream truck shows customers </tspan><tspan x="0" y="25.2">want upfront pricing information</tspan></text>
+    <g isolation="isolate">
+      <text transform="translate(16.55 39.83)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="24" font-weight="700" isolation="isolate"><tspan x="0" y="0">Failure to post prices and cashless-only policy drive most complaints against Eddie </tspan></text>
+      <text transform="translate(16.55 68.63)" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="24" font-weight="700" isolation="isolate"><tspan x="0" y="0">Cumart’s ice cream truck</tspan></text>
+    </g>
+    <g isolation="isolate">
+      <text transform="translate(16.55 100.27)" fill="#555" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="21" font-weight="700" isolation="isolate"><tspan x="0" y="0">Breakdown of 361 complaints against Eddie Cumart’s NYC ice cream truck shows customers </tspan></text>
+      <text transform="translate(16.55 125.47)" fill="#555" font-family="NYTCheltenham-Bold, NYTCheltenham" font-size="21" font-weight="700" isolation="isolate"><tspan x="0" y="0">want upfront pricing information</tspan></text>
+    </g>
   </g>
-  <text transform="translate(18.65 742.79)" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="12"><tspan x="0" y="0">Source:</tspan><tspan x="36.66" y="0">DCWP Consumer Complaints By:Grace Jiang</tspan></text>
+  <g isolation="isolate">
+    <text transform="translate(18.65 742.79)" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="12" isolation="isolate"><tspan x="0" y="0">Source:</tspan></text>
+    <text transform="translate(55.31 742.79)" font-family="TimesNewRomanPSMT, &apos;Times New Roman&apos;" font-size="12" isolation="isolate"><tspan x="0" y="0">DCWP Consumer Complaints By:Grace Jiang</tspan></text>
+  </g>
 </svg>
