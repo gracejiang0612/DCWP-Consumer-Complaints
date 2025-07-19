@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Surprise! That Cone Cost $14: Ice Cream Trucks Rack Up Complaints in NYC</title>
+        <link rel="icon" type="image/png" href="final img/tab.png">
+    <meta name="description" content="Investigation reveals Eddie Cumart's ice cream trucks in NYC have generated the most consumer complaints since 2023, with customers charged up to $28 for two cones without knowing prices upfront.">
+    <meta name="keywords" content="ice cream trucks, NYC complaints, Eddie Cumart, hidden prices, cashless business, consumer protection, Brooklyn, DCWP">
+    <meta name="author" content="Grace Jiang">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Surprise! That Cone Cost $14: Ice Cream Trucks Rack Up Complaints in NYC">
+    <meta property="og:description" content="Investigation reveals Eddie Cumart's ice cream trucks in NYC have generated the most consumer complaints since 2023, with customers charged up to $28 for two cones without knowing prices upfront.">
+    <meta property="og:image" content="final img/IMG_1.jpg">
+    <meta property="og:url" content="https://gracejiang0612.github.io/DCWP-Consumer-Complaints/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Grace Jiang - Data Journalism">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Surprise! That Cone Cost $14: Ice Cream Trucks Rack Up Complaints in NYC">
+    <meta name="twitter:description" content="Investigation reveals Eddie Cumart's ice cream trucks in NYC have generated the most consumer complaints since 2023, with customers charged up to $28 for two cones without knowing prices upfront.">
+    <meta name="twitter:image" content="final img/IMG_1.jpg">
+    <meta name="twitter:creator" content="@gracejiang0612">
+    <link rel="canonical" href="https://gracejiang0612.github.io/DCWP-Consumer-Complaints/">
     <style>
         * {
             margin: 0;
@@ -16,52 +33,107 @@
             line-height: 1.6;
             color: #333;
             background-color: #fff;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-section {
+            display: flex;
+            align-items: stretch;
+            margin: 0;
+            gap: 0;
+            min-height: 80vh;
+        }
+
+        .header-content {
+            flex: 1;
+            padding: 60px 40px 60px 40px;
+            margin: 0 20px 0 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .header-image {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            padding: 0;
+        }
+
+        .header-image img {
+            max-width: 120%;
+            max-height: 100vh;
+            border-radius: 0;
+            object-fit: contain;
+            margin: 0;
         }
 
         .headline {
             font-family: Georgia, 'Times New Roman', serif;
-            font-size: 2.5em;
+            font-size: 3.2em;
             font-weight: normal;
-            line-height: 1.2;
-            margin-bottom: 20px;
-            text-align: left;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            text-align: center;
         }
 
         .deck {
-            font-size: 1.2em;
+            font-size: 1.4em;
             font-weight: 300;
             color: #444;
             margin-bottom: 30px;
             line-height: 1.4;
+            text-align: center;
         }
 
         .byline {
             font-family: Arial, sans-serif;
-            font-size: 0.9em;
+            font-size: 1em;
             color: #888;
-            margin-bottom: 40px;
+            margin: 30px auto 50px auto;
+            padding: 0 60px;
+            max-width: 800px;
             text-align: left;
+        }
+
+        .byline-author {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .byline-author a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .byline-author a:hover {
+            color: #1a0dab;
+            text-decoration: underline;
+        }
+
+        .publish-date {
+            font-family: Arial, sans-serif;
+            font-size: 0.8em;
+            color: #999;
+            margin-top: 5px;
         }
 
         .story-content {
             font-size: 1.1em;
             line-height: 1.7;
-            margin-bottom: 30px;
+            margin: 40px auto 30px auto;
+            padding: 0 60px;
+            max-width: 800px;
         }
 
         .story-content p {
+            font-family: Georgia, 'Times New Roman', serif;
             margin-bottom: 20px;
             text-align: justify;
-        }
-
-        .quote {
-            font-style: italic;
-            margin: 20px 0;
-            padding-left: 20px;
-            border-left: 2px solid #ccc;
+            color: #000;
         }
 
         .image-caption {
@@ -96,89 +168,191 @@
             text-decoration: underline;
         }
 
-        .feature-tag {
+        .author-bio {
             font-family: Arial, sans-serif;
-            font-size: 0.8em;
+            font-size: 0.95em;
             color: #666;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 10px;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .author-bio a {
+            color: #1a0dab;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .author-bio a:hover {
+            color: #c0392b;
+            text-decoration: underline;
         }
 
         @media (max-width: 600px) {
             body {
-                padding: 20px 15px;
+                padding: 0;
+            }
+            
+            .header-section {
+                flex-direction: column;
+                gap: 0;
+                min-height: auto;
+            }
+            
+            .header-content {
+                padding: 30px 20px;
+                margin: 0 15px;
+            }
+            
+            .header-image img {
+                max-height: 50vh;
             }
             
             .headline {
-                font-size: 2em;
+                font-size: 2.2em;
             }
             
             .deck {
-                font-size: 1.1em;
+                font-size: 1.2em;
+            }
+            
+            .byline {
+                font-size: 0.9em;
+                margin: 20px auto;
+                padding: 0 30px;
+                max-width: 100%;
+            }
+
+            .publish-date {
+                font-size: 0.7em;
+            }
+            
+            .story-content {
+                margin: 0 auto 30px auto;
+                padding: 0 30px;
+                max-width: 100%;
             }
         }
     </style>
-</head>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Surprise! That Cone Cost $14: Ice Cream Trucks Rack Up Complaints in NYC Over Hidden Prices and No-Cash Policy",
+      "description": "Investigation reveals Eddie Cumart's ice cream trucks in NYC have generated the most consumer complaints since 2023, with customers charged up to $28 for two cones without knowing prices upfront.",
+      "image": "final img/IMG_1.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Grace Jiang",
+        "url": "https://gracejiang0612.github.io/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Grace Jiang",
+        "url": "https://gracejiang0612.github.io/"
+      },
+      "datePublished": "2025-07-19",
+      "dateModified": "2025-07-19",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://gracejiang0612.github.io/DCWP-Consumer-Complaints/"
+      },
+      "articleSection": "Consumer Protection",
+      "keywords": ["ice cream trucks", "NYC complaints", "Eddie Cumart", "hidden prices", "cashless business", "consumer protection", "Brooklyn", "DCWP"]
+    }
+    </script></head>
 <body>
-    <div class="feature-tag">Consumer Protection</div>
+<main>
+<article>
+    <header class="header-section">
+        <div class="header-content">
+            <h1 class="headline">Surprise! That Cone Cost $14: Ice Cream Trucks Rack Up Complaints in NYC Over Hidden Prices and No-Cash Policy</h1>
+            
+            <div class="deck">In New York City, the most complained about business is ice cream trucks near Brooklyn Bridge, owned by Eddie Cumart, where customers don&rsquo;t know how much they are paying until the charge hits their phones.</div>
+        </div>
+        
+        <div class="header-image">
+            <img src="final img/IMG_1.jpg" alt="Ice cream truck in New York City">
+        </div>
+    </header>
     
-    <h1 class="headline">Surprise! That Cone Cost $14: Ice Cream Trucks Rack Up Complaints in NYC Over Hidden Prices and No-Cash Policy</h1>
-    
-    <div class="deck">In New York City, buying ice cream on a hot summer day can feel like ordering a blind box — you won't know how much it costs until the charge hits your phone.</div>
-    
-    <div class="byline">By Grace Jiang</div>
+    <div class="byline">
+        <div class="byline-author">By <a href="https://gracejiang0612.github.io/">Grace Jiang</a></div>
+        <div class="publish-date">July 19, 2025</div>
+    </header>
     
     <div class="story-content">
-        <p>On July 4, Devolea Rey and her daughter had just arrived from Argentina and were celebrating Independence Day in Brooklyn. Hungry and eager to cool off, they approached an ice cream truck. Seeing the colorful pictures on the truck's side, they ordered two vanilla cones without hesitation. After paying by credit card, Rey suddenly realized she hadn't asked about the price. Her phone showed no transaction details yet due to processing delays. She expected to pay around $6 for both cones. The actual cost: $28.</p>
+        <p>On July 4, Devolea Rey and her daughter had just arrived from Argentina and were celebrating Independence Day in Brooklyn. Hungry and eager to cool off, they approached an ice cream truck on Old Fulton Street. Seeing the colorful pictures on the truck&rsquo;s side, they ordered two vanilla cones without hesitation. After paying by credit card, Rey suddenly realized she hadn&rsquo;t asked about the price. Her phone showed no transaction details yet due to processing delays. She expected to pay around $6 for both cones. The actual cost: $28.</p>
 
+        <img src="final img/IMG_2.jpg" alt="Devolea Rey shows her credit card after paying for ice cream" style="width: 100%; max-width: 600px; height: auto; margin: 20px 0; display: block; margin-left: auto; margin-right: auto;">
         <div class="image-caption">(Devolea Rey shows her credit card after paying $28 for two vanilla cones in Brooklyn.)</div>
 
-        <div class="quote">"[It's] more expensive than Argentina," Rey said. "We have a lot of inflation, but it's really expensive."</div>
+        <p>She wasn&rsquo;t alone.</p>
 
-        <p>She wasn't alone.</p>
+        <p>Katie Granillo, a native New Yorker, had a similar experience when she ordered a vanilla cone with cherry dip while her brother got chocolate dip at the same truck. &ldquo;I handed him money, and then he came back and said, &lsquo;No, it&rsquo;s $10 each,&rsquo;&rdquo; she said. &ldquo;Prices weren&rsquo;t said beforehand.&rdquo;</p>
 
-        <p>Katie Granillo, a native New Yorker, had a similar experience when she ordered a vanilla cone with cherry dip while her brother got chocolate dip. "I handed him money, and then he came back and said, 'No, it's $10 each,'" she said. "Prices weren't said beforehand."</p>
-
+        <img src="final img/IMG_3.jpg" alt="Katie Granillo and her brother at the ice cream truck" style="width: 100%; max-width: 600px; height: auto; margin: 20px 0; display: block; margin-left: auto; margin-right: auto;">
         <div class="image-caption">(Katie Granillo and her brother handed the cash to the ice cream truck operator.)</div>
 
-        <p>George Buggs, a visitor buying ice cream from an ice cream truck for the first time, paid $14 for his ice cream using Google Pay. "If it cost $14, it'd be my last," he said, estimating he was overcharged by at least $10. "If the price is written clearly, I won't buy it."</p>
+        <p>George Buggs, a visitor buying ice cream from the ice cream truck for the first time, paid $14 for his ice cream using Google Pay. &ldquo;If it cost $14, it&rsquo;d be my last,&rdquo; he said, estimating he was overcharged by at least $10. &ldquo;If the price is written clearly, I won&rsquo;t buy it.&rdquo;</p>
 
-        <p>Even customers familiar with high Manhattan prices expressed surprise. Kayshla Pendleton paid $14.15 for a waffle cone with chocolate ice cream and rainbow sprinkles. "I've only gotten ice cream from Mr. Softee, and usually it's around no less than $10," she said. "Seeing that it's $14, it's like, wow."</p>
+        <p>Even customers familiar with high Manhattan prices expressed surprise. Kayshla Pendleton paid $14.15 for a waffle cone with chocolate ice cream and rainbow sprinkles from the same truck near Brooklyn Bridge. She had only gotten ice cream from Mr. Softee before and she had never paid more than $10. &ldquo;Seeing that it&rsquo;s $14, it&rsquo;s like, wow,&rdquo; she said.</p>
 
+        <img src="final img/IMG_4.jpg" alt="Kayshla Pendleton with her ice cream cone" style="width: 100%; max-width: 600px; height: auto; margin: 20px 0; display: block; margin-left: auto; margin-right: auto;">
         <div class="image-caption">(Kayshla Pendleton with her ice cream cone.)</div>
+
+        <p>These experiences show a broader pattern. Since 2023, the most complained-about business in New York City is a fleet of ice cream trucks owned by a single operator –– Eddie Cumart. According to data from the NYC Department of Consumer and Worker Protection (DCWP), his business has generated more consumer complaints than any other.</p>
+
+        <object data="dataviz/top5-complaint.svg" type="image/svg+xml" style="width: 100%; max-width: 700px; height: auto; margin: 30px 0; display: block; margin-left: auto; margin-right: auto;">
+            <img src="dataviz/top5-complaint.svg" alt="Chart showing top 5 most complained about businesses in NYC" style="width: 100%; max-width: 700px; height: auto;">
+        </object>
 
         <div class="section-break"></div>
 
-        <p>Since 2023, the most complained-about business in New York City is a fleet of ice cream trucks owned by a single operator –– Eddie Cumart. According to data from the NYC Department of Consumer and Worker Protection (DCWP), his business has generated more consumer complaints than any other. The primary complaint reasons: "Price not posted" and operating as a "Cashless Business," along with complaints about overpricing.</p>
+        <p>The primary complaints center on: &ldquo;Price not posted&rdquo; and operating as a &ldquo;Cashless Business,&rdquo; along with complaints about overpricing.</p>
 
-        <p>Cumart, who calls himself the "King of Ice Cream," operates 33 trucks, mostly in Brooklyn, with others scattered across Queens, Staten Island and New Jersey. His goal: "100 trucks." What customers experience as price confusion, Cumart describes as location-based pricing tied to his operating costs.</p>
+        <object data="dataviz/complaint-reasons.svg" type="image/svg+xml" style="width: 100%; max-width: 700px; height: auto; margin: 30px 0; display: block; margin-left: auto; margin-right: auto;">
+            <img src="dataviz/complaint-reasons.svg" alt="Chart showing primary complaint reasons against Eddie Cumart's ice cream trucks" style="width: 100%; max-width: 700px; height: auto;">
+        </object>
 
-        <p>Starting in 2015, Cumart built his ice cream empire by purchasing trucks from retiring operators. He exclusively franchises with Carvel and operates other food truck businesses. Three managers help train employees, with one dedicated to ice cream operations.</p>
+        <p>This pattern of complaints prompted regulatory action. Over the past two years, DCWP conducted 23 inspections of Cumart&rsquo;s Brooklyn trucks. In October 2024, the department issued a summons for violations that are subject to financial penalties after a hearing (or default) at the Office of Administrative Trials and Hearings (OATH) due to failure to display prices and refusing to accept cash payments in violation of the city&rsquo;s consumer protection laws and the <a href="https://www.nyc.gov/site/dca/consumers/Prohibition-of-Cashless-Establishments.page">Cashless Ban</a>.</p>
 
-        <div class="quote">"Nobody [is] allowed to take cash. Everybody must take credit cards," Cumart said. "Cash business, everybody steals." The money flows to a bank account, and he pays taxes monthly.</div>
+        <p>In New York City, beginning November 19, 2020, stores must accept cash unless they have a machine to convert cash to a prepaid card. They cannot charge more for paying in cash.</p>
 
-        <div class="image-caption">(A "Cashless" sign on one of Eddie Cumart's ice cream trucks in Brooklyn.)</div>
+        <p>Eddie Cumart failed to show up to the hearing and is liable for penalties totaling $1,100. This includes $100 for failure to conspicuously display prices and $1,000 for refusing to accept cash payments, violating consumer protection laws and the City&rsquo;s Cashless Ban, according to DCWP in an email response. If a business continues to violate these laws, they can receive a <a href="https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCrules/0-0-0-102085">civil penalty</a> of up to $1,500 for each additional violation from their initial violation.</p>
 
-        <p>Cumart insists prices are displayed "right next to the permits" on every truck and daily inspections occur. "If you don't ask, I'm not gonna tell you," he said. "The minute you better ask before you purchase or check the prices. I cannot tell you what to buy. I'm not enforcing them to buy."</p>
+        <p>Cumart, who calls himself the &ldquo;King of Ice Cream,&rdquo; operates 33 trucks, mostly in Brooklyn, with others scattered across Queens, Staten Island and New Jersey. His goal: &ldquo;100 trucks.&rdquo; What customers experience as price confusion, Cumart describes as location-based pricing tied to his operating costs.</p>
 
-        <p>He attributes communication problems to language barriers with tourists: "It's too hard to deal with the tourist people, they don't speak English."</p>
+        <p>Starting in 2015, Cumart built his ice cream empire by purchasing trucks from retiring operators. He exclusively franchises with <a href="https://www.restfinance.com/app/pdf/fdd/Carvel-2023.pdf">Carvel</a> and operates other food truck businesses. Three managers help train employees, with one dedicated to ice cream operations.</p>
 
-        <p>Cumart's pricing varies by location. His trucks inside Six Flags charge $16 for cones, while Statue of Liberty locations charge $18 for waffle cones and $8 for regular cones. Hudson locations charge $14.</p>
+        <img src="final img/IMG_5.jpg" alt="Cashless sign on Eddie Cumart's ice cream truck" style="width: 100%; max-width: 600px; height: auto; margin: 20px 0; display: block; margin-left: auto; margin-right: auto;">
+        <div class="image-caption">(A &ldquo;Cashless&rdquo; sign on one of Eddie Cumart&rsquo;s ice cream trucks in Brooklyn.)</div>
 
-        <p>The majority of complaints have been concentrated in Brooklyn, records show.</p>
+        <p>Cumart insists prices are displayed &ldquo;right next to the permits&rdquo; on every truck and daily inspections occur. However, no clear posted prices were visible on the truck when Columbia News Service visited Cumart&rsquo;s ice cream trucks.</p>
 
-        <div class="quote">"Everywhere is a different value. All about location," Cumart said. "In some locations, we pay a lot of rent, like for park permits. That money goes to the permits. In some locations, we must pay rent to the city."</div>
+        <p>&ldquo;If you don&rsquo;t ask, I&rsquo;m not gonna tell you,&rdquo; he said. &ldquo;The minute you better ask before you purchase or check the prices. I cannot tell you what to buy. I&rsquo;m not enforcing them to buy.&rdquo;</p>
 
-        <p>He compares the current situation with earlier days: "Before, when I was a minstrel, I used to charge $3 for a cone, and I didn't have to pay nobody. Now I have to pay everybody, parks, apartments, general liability insurance, truck insurance, parking lots [and] drivers."</p>
+        <p>He attributes communication problems to language barriers with tourists: &ldquo;It&rsquo;s too hard to deal with the tourist people, they don&rsquo;t speak English.&rdquo;</p>
+
+        <p>Cumart&rsquo;s pricing varies by location. When the truck is stationed in touristy areas, like the Statue of Liberty, he charges $18 for waffle cones and $8 for regular cones. At Hudson Yards, cones cost $14.</p>
+
+        <p>However, Cumart says, customers in mostly residential neighborhoods pay different rates. &ldquo;If I come to your neighborhood, regular customers, we open the jingle, people come downstairs, it&rsquo;s $5,&rdquo; Cumart said. &ldquo;All about the location. If I don&rsquo;t pay for that location, it&rsquo;s $5.&rdquo;</p>
+
+        <p>The majority of complaints have been concentrated in Brooklyn within community board 302, records show.</p>
+
+        <p>Cumart said prices were lower when he was first starting out, running trucks that moved from location to location rather than being parked in fixed spots. He explained that his higher current rates reflect increased operating costs, including payments to parks and apartment buildings for parking permits, insurance costs and employee wages. &ldquo;Now I have to pay everybody,&rdquo; he said, contrasting his current operation with his earlier days when he charged $3 for a cone.</p>
 
         <p>For a $15 cone, Cumart said his profit margin is $3.</p>
 
-        <p>Customers in residential neighborhoods pay different rates. "If I come to your neighborhood, regular customers, we open the jingle, people come downstairs, it's $5," Cumart said. "All about the location. If I don't pay for that location, it's $5."</p>
+        <p>Some customers said they would still purchase ice cream if prices were clearly posted, though many acknowledged they might choose differently. As Pendleton, who paid $14.15 for her waffle cone, noted about potentially knowing the $14.15 price upfront: &ldquo;Maybe I would have been like, &lsquo;Oh wow, that&rsquo;s crazy.&rsquo; I probably still would have bought it though.&rdquo;</p>
 
-        <p>Over the past two years, DCWP conducted 23 inspections of Cumart's Brooklyn trucks. In October 2024, the department issued a summons due to failure to display prices and refusing to accept cash payments in violation of the city's consumer protection laws and the Cashless Ban.</p>
-
-        <p>Some customers said they would still purchase ice cream if prices were clearly posted, though many acknowledged they might choose differently. As Pendleton noted about potentially knowing the $14.15 price upfront: "Maybe I would have been like, 'Oh wow, that's crazy.' I probably still would have bought it though."</p>
-    </div>
+        <div class="author-bio">
+            <a href="https://gracejiang0612.github.io/">Grace Jiang</a> is a multimedia data journalist, she reports with words, data and visuals. Interested in my data code? <a href="https://github.com/gracejiang0612/DCWP-Consumer-Complaints">View the code on GitHub</a>.
+        </div>
+    </header>
+</article>
+</main>
 </body>
-</html> 
+</html>
